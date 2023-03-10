@@ -45,6 +45,17 @@ body {
     text-decoration: none;
 }
 
+#text {
+    color: var(--accentColor);
+    font-size: .9rem;
+    display: block;
+    font-family: var(--font);
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    margin: 27px auto;
+}
+
 #links {
     max-width: 675px;
     width: auto;
@@ -68,6 +79,7 @@ body {
     text-decoration: none;
     /* transition: all .25s cubic-bezier(.08, .59, .29, .99); */
     -webkit-tap-highlight-color: transparent;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6))
 }
 
 @media (hover: hover) {
